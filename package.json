@@ -1,0 +1,23 @@
+{
+  "name": "crystal-kizor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "images": "node scripts/optimize-images.mjs",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/fonts": "^0.14.0",
+    "nuxt": "^4.6.0",
+    "vue": "^3.5.43",
+    "vue-router": "^5.4.0"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "crystal-hero": {
+    "width": 1024,
+    "height": 1536,
+    "widths": [
+      480,
+      800,
+      1024
+    ]
+  },
+  "crystal-editorial": {
+    "width": 1373,
+    "height": 1145,
+    "widths": [
+      480,
+      800,
+      1200,
+      1373
+    ]
+  },
+  "crystal-podcast": {
+    "width": 1374,
+    "height": 1145,
+    "widths": [
+      480,
+      800,
+      1200,
+      1374
+    ]
+  },
+  "crystal-blazer": {
+    "width": 1374,
+    "height": 1145,
+    "widths": [
+      480,
+      800,
+      1200,
+      1374
+    ]
+  },
+  "crystal-desk": {
+    "width": 1374,
+    "height": 1145,
+    "widths": [
+      480,
+      800,
+      1200,
+      1374
+    ]
+  },
+  "crystal-desk-white": {
+    "width": 1374,
+    "height": 1145,
+    "widths": [
+      480,
+      800,
+      1200,
+      1374
+    ]
+  },
+  "nature-home-front": {
+    "width": 804,
+    "height": 1080,
+    "widths": [
+      480,
+      800,
+      804
+    ]
+  },
+  "nature-home-cantilever": {
+    "width": 809,
+    "height": 1080,
+    "widths": [
+      480,
+      800,
+      809
+    ]
+  },
+  "nature-home-garden": {
+    "width": 795,
+    "height": 1062,
+    "widths": [
+      480,
+      795
+    ]
+  },
+  "nature-home-dividers": {
+    "width": 809,
+    "height": 1078,
+    "widths": [
+      480,
+      800,
+      809
+    ]
+  },
+  "nature-home-sitting": {
+    "width": 950,
+    "height": 1440,
+    "widths": [
+      480,
+      800,
+      950
+    ]
+  },
+  "nature-home-study": {
+    "width": 768,
+    "height": 1024,
+    "widths": [
+      480,
+      768
+    ]
+  },
+  "nature-home-exterior": {
+    "width": 768,
+    "height": 1024,
+    "widths": [
+      480,
+      768
+    ]
+  },
+  "nature-home-ii-exterior": {
+    "width": 1024,
+    "height": 1024,
+    "widths": [
+      480,
+      800,
+      1024
+    ]
+  },
+  "nature-home-ii-dining": {
+    "width": 867,
+    "height": 1080,
+    "widths": [
+      480,
+      800,
+      867
+    ]
+  },
+  "nature-home-ii-kitchen": {
+    "width": 890,
+    "height": 1080,
+    "widths": [
+      480,
+      800,
+      890
+    ]
+  },
+  "nature-home-ii-bedroom": {
+    "width": 980,
+    "height": 1080,
+    "widths": [
+      480,
+      800,
+      980
+    ]
+  },
+  "nature-home-ii-bath": {
+    "width": 867,
+    "height": 1080,
+    "widths": [
+      480,
+      800,
+      867
+    ]
+  },
+  "community-centre-exterior": {
+    "width": 3840,
+    "height": 2877,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ]
+  },
+  "community-centre-courtyard": {
+    "width": 2560,
+    "height": 3200,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ]
+  },
+  "community-centre-gallery": {
+    "width": 2244,
+    "height": 2804,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ]
+  },
+  "community-centre-hall": {
+    "width": 2326,
+    "height": 2326,
+    "widths": [
+      480,
+      800,
+      1200,
+      1800
+    ]
+  }
+}
