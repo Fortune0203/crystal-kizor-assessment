@@ -51,8 +51,9 @@ function close() {
         @click="open = !open"
       >
         <span class="visually-hidden">{{ open ? 'Close menu' : 'Open menu' }}</span>
-        <span class="toggle__line" />
-        <span class="toggle__line" />
+        <span class="toggle__line toggle__line--top" />
+        <span class="toggle__line toggle__line--mid" />
+        <span class="toggle__line toggle__line--bot" />
       </button>
     </div>
 
@@ -165,23 +166,34 @@ function close() {
   width: 22px;
   height: 1.5px;
   background: var(--ink);
-  transition: transform 0.35s var(--ease);
+  transition:
+    transform 0.35s var(--ease),
+    opacity 0.2s var(--ease);
 }
 
-.toggle__line:first-of-type {
-  top: 18px;
+.toggle__line--top {
+  top: 15px;
 }
 
-.toggle__line:last-of-type {
-  top: 25px;
+.toggle__line--mid {
+  top: 21px;
 }
 
-.is-open .toggle__line:first-of-type {
-  transform: translateY(3.5px) rotate(45deg);
+.toggle__line--bot {
+  top: 27px;
 }
 
-.is-open .toggle__line:last-of-type {
-  transform: translateY(-3.5px) rotate(-45deg);
+/* Open: outer lines cross into an X, middle line fades out */
+.is-open .toggle__line--top {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.is-open .toggle__line--mid {
+  opacity: 0;
+}
+
+.is-open .toggle__line--bot {
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .drawer {
