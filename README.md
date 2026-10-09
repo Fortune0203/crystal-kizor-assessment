@@ -6,7 +6,7 @@
 
 A single-page personal brand site for Crystal Kizor: architect, designer, educator and founder. It is built with **Nuxt 4**.
 
-- **Live:** _add deployed URL_
+- **Live:** [https://crystal-kizor.onyejosefortune.workers.dev/](https://crystal-kizor.onyejosefortune.workers.dev/)
 
 ## Stack
 
@@ -45,7 +45,7 @@ This creates responsive AVIF/WebP images, cuts the logo marks from the logo shee
 
 ```bash
 npm install
-npm run images   # with ASSETS_DIR set, see above
+npm run images 
 npm run dev
 ```
 
@@ -53,14 +53,6 @@ Without email credentials, enquiries are logged to the terminal in dev.
 
 ## Deploy
 
-Because the assets are not in git, deploy from a machine that has them, using the Vercel CLI's prebuilt flow:
-
-```bash
-npx vercel link
-npx vercel env add NUXT_RESEND_API_KEY
-npx vercel build --prod
-npx vercel deploy --prebuilt --prod
-```
 
 Environment variables (see `.env.example`):
 - `NUXT_RESEND_API_KEY`: from resend.com
