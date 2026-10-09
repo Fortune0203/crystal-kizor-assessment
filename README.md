@@ -37,7 +37,7 @@ The photographs and logos were supplied privately for this assessment, so they a
 
 ```bash
 ASSETS_DIR="/path/to/asset-pack" npm run images
-```
+``` 
 
 This creates responsive AVIF/WebP images, cuts the logo marks from the logo sheet, and creates the favicons and the social share image.
 
